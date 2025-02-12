@@ -36,8 +36,8 @@ Mobile Design
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub page](https://github.com/AgnerShimokawa/faq-accordion)
+- Live Site URL: [Live site URL](https://agnershimokawa.github.io/faq-accordion/)
 
 ## My process
 
