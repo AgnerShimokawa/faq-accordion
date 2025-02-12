@@ -1,0 +1,46 @@
+@media (max-width: 610px) {
+    html {
+        font-size: 14px;
+    }
+
+    body {
+        background-image: url(../../assets/images/background-pattern-mobile.svg);
+    }
+
+    .container {
+        width: 325px;
+        height: 528px;
+        padding: 20px;
+    }
+
+    .container .title-section {
+        padding-left: 2px;
+    }
+
+    .container .title-section .star-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .container .title-section .title {
+        font-size: 32px;
+        padding: 4px 24px;
+    }
+
+    .container .faq-section .faq-list {
+        padding: 0 3px;
+    }
+
+    .container .faq-section .faq-list .question-accordion {
+        padding: 18px 0 18px 0;
+    }
+
+    .container .faq-section .faq-list .question {
+        font-size: 16px;
+    }
+
+    .answer-opened {
+        padding: 5px 0  22px 0;
+        line-height: 21px;
+    }
+}

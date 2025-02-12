@@ -1,0 +1,102 @@
+html {
+    background-color: var(--primary-background-color);
+    font-family: "Work Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body {
+    background-image: url(../../assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: var(--secondary-background-color);
+    width: 600px;
+    height: 565px;
+    border-radius: 3%;
+    padding: 24px;
+    box-shadow: 0 1px 70px 20px rgba(0, 0, 0, 10%);
+}
+
+.container .title-section {
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+}
+
+.container .title-section .title {
+    color: var(--primary-text-color);
+    font-size: 56px;
+    font-weight: 700;
+    padding: 15px 25px;
+}
+
+.container .faq-section .faq-list {
+    padding: 0 17px;
+}
+
+.container .faq-section .question-and-answer {
+    border-bottom: 0.5px solid var(--primary-background-color);
+}
+
+.container .faq-section .question-and-answer:last-child {
+    border-bottom: none;
+}
+
+.container .faq-section .faq-list .question-and-answer .question-accordion {
+    display: grid;
+    padding: 21px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .faq-section .faq-list .question-and-answer .question-accordion:hover {
+    cursor: pointer;
+}
+
+.container .faq-section .faq-list .question-and-answer .question-accordion .question:hover {
+    color: var(--secondary-text-color);
+}
+
+.container .faq-section .faq-list .question-and-answer .question-accordion .question {
+    color: var(--primary-text-color);
+    font-size: 18px;
+    font-weight: 600;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.container .faq-section .faq-list .question-and-answer .question-accordion .expand-icon,
+.container .faq-section .faq-list .question-and-answer .question-accordion .shrink-icon {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.container .faq-section .faq-list .question-and-answer .question-accordion .shrink-icon {
+    display: none;
+}
+
+.container .faq-section .faq-list .question-and-answer .question-accordion .shrink-icon.activated {
+    display: block;
+}
+
+.container .faq-section .faq-list .question-and-answer .answer {
+    display: none;
+}
+
+.container .faq-section .faq-list .question-and-answer .answer.answer-opened {
+    color: var(--secondary-text-color);
+    display: block;
+    padding-bottom: 32px;
+    line-height: 24px;
+}
